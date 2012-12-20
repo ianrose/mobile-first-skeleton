@@ -167,6 +167,7 @@
 	  margin-bottom: 20px;
 	  line-height: normal;
 	  padding: 8px 10px;
+	  -webkit-appearance: none;
 	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 	.button:hover,
@@ -228,6 +229,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="username"],
 	textarea,
 	select {
 		border: 1px solid #ccc;
@@ -243,12 +245,14 @@
 		max-width: 100%;
 		display: block;
 		margin-bottom: 20px;
+		-webkit-appearance: none;
 		background: #fff; }
 	select {
 		padding: 0; }
 	input[type="text"]:focus,
 	input[type="password"]:focus,
 	input[type="email"]:focus,
+	input[type="username"]:focus,
 	textarea:focus {
 		border: 1px solid #aaa;
  		color: #444;
