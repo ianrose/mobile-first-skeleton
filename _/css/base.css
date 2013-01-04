@@ -121,17 +121,25 @@ p a, p a:visited { line-height: inherit; }
 /* #Lists
 ================================================== */
 ul, ol { margin-bottom: 10px; }
+
 ul { list-style: none outside; }
+
 ol { list-style: decimal; }
+
 ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+
 ul.square { list-style: square outside; }
+
 ul.circle { list-style: circle outside; }
+
 ul.disc { list-style: disc outside; }
-ul ul, ul ol,
-ol ol, ol ul { margin: 4px 0 5px 20px; font-size: 12px;  }
-ul ul li, ul ol li,
-ol ol li, ol ul li { margin-bottom: 10px; }
+
+ul ul, ul ol, ol ol, ol ul { margin: 4px 0 5px 20px; font-size: 12px;  }
+
+ul ul li, ul ol li, ol ol li, ol ul li { margin-bottom: 10px; }
+
 li { line-height: 20px; margin-bottom: 10px; }
+
 li p { line-height: 20px; }
 
 /* #Images
@@ -143,11 +151,7 @@ img.scale-with-grid {
 
 /* #Buttons
 ================================================== */
-.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
 	background: #eee; /* Old browsers */
 	background: #eee -moz-linear-gradient(top, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%); /* FF3.6+ */
 	background: #eee -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.2)), color-stop(100%,rgba(0,0,0,.2))); /* Chrome,Safari4+ */
@@ -173,11 +177,7 @@ input[type="button"] {
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover {
+.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
 	color: #222;
 	background: #ddd; /* Old browsers */
 	background: #ddd -moz-linear-gradient(top, rgba(255,255,255,.3) 0%, rgba(0,0,0,.3) 100%); /* FF3.6+ */
@@ -188,11 +188,7 @@ input[type="button"]:hover {
 	background: #ddd linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* W3C */
 }
 
-.button:active,
-button:active,
-input[type="submit"]:active,
-input[type="reset"]:active,
-input[type="button"]:active {
+.button:active, button:active, input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active {
 	background: #ccc; /* Old browsers */
 	background: #ccc -moz-linear-gradient(top, rgba(255,255,255,.35) 0%, rgba(10,10,10,.4) 100%); /* FF3.6+ */
 	background: #ccc -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.35)), color-stop(100%,rgba(10,10,10,.4))); /* Chrome,Safari4+ */
@@ -202,19 +198,14 @@ input[type="button"]:active {
 	background: #ccc linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* W3C */
 }
 
-.button.full-width,
-button.full-width,
-input[type="submit"].full-width,
-input[type="reset"].full-width,
-input[type="button"].full-width {
+.button.full-width, button.full-width, input[type="submit"].full-width, input[type="reset"].full-width, input[type="button"].full-width {
 	width: 100%;
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 	text-align: center; }
 
 /* Fix for odd Mozilla border & padding issues */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
@@ -225,12 +216,7 @@ form { margin-bottom: 20px; }
 
 fieldset { margin-bottom: 20px; }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="username"],
-textarea,
-select {
+input[type="text"], input[type="password"], input[type="email"], input[type="username"], textarea, select {
 	border: 1px solid #ccc;
 	padding: 9px 5px;
 	outline: none;
@@ -250,11 +236,7 @@ select {
 
 select { padding: 0; }
 
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
-input[type="username"]:focus,
-textarea:focus {
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="username"]:focus, textarea:focus {
 	border: 1px solid #aaa;
 	color: #444;
 	-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
@@ -264,8 +246,7 @@ textarea:focus {
 
 textarea { min-height: 80px; }
 
-label,
-legend {
+label, legend {
 	display: block;
 	font-weight: bold;
 	font-size: 14px;
@@ -285,7 +266,9 @@ legend span {
 /* #Misc
 ================================================== */
 .remove-bottom { margin-bottom: 0 !important; }
+
 .half-bottom { margin-bottom: 10px !important; }
+
 .add-bottom { margin-bottom: 20px !important; }
 
 
