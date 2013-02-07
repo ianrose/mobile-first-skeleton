@@ -85,7 +85,7 @@
 
     /* Note: Design for a width of 480px */
 
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
+    @media only screen and (min-width: 480px) and (max-width: 782px) {
         .container { width: 420px; }
         .container .columns,
         .container .column { margin: 0; }
@@ -117,7 +117,7 @@
 
     /* Note: Design for a width of 768px */
 
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
+    @media only screen and (min-width: 783px) and (max-width: 974px) {
         .container                                  { width: 768px; }
         .container .column,
         .container .columns                         { margin-left: 10px; margin-right: 10px;  }
@@ -169,7 +169,7 @@
 
 	/* Note: Design for a width of 960px and up */
  
-	@media only screen and (min-width: 960px) {
+	@media only screen and (min-width: 975px) {
 		.container 									{ width: 960px; }
 		.container .column,
 		.container .column,
