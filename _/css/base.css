@@ -147,9 +147,13 @@ li p { line-height: 20px; }
 
 /* #Images
 ================================================== */
-img.scale-with-grid {
+img {
 	max-width: 100%;
 	height: auto; 
+}
+
+img.no-scale {
+	max-width: none;
 }
 
 /* #Buttons
