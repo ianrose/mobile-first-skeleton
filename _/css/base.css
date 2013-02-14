@@ -36,7 +36,7 @@ html {
 	overflow-y: scroll; /*Could create double vertical scrollbars with Firefox using certain JS plugins*/
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main { display: block; }
 
 body { line-height: 1; }
 
